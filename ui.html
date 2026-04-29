@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Egypt Luxury Tourism</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  ✨ Egypt Luxury Tourism ✨
+</header>
+
+<section id="map">
+  <h2>Select a Governorate</h2>
+  <div class="map-container">
+    <button onclick="selectGov('Giza')">Giza</button>
+    <button onclick="selectGov('Alexandria')">Alexandria</button>
+    <button onclick="selectGov('Luxor')">Luxor</button>
+  </div>
+</section>
+
+<section id="attractions" class="hidden">
+  <h2 id="gov-title"></h2>
+  <div id="places"></div>
+</section>
+
+<section id="cart" class="hidden">
+  <h2>Your Trip Plan 🧳</h2>
+  <ul id="cartList"></ul>
+  <button onclick="goToBooking()">Proceed to Booking</button>
+</section>
+
+<section id="booking" class="hidden">
+  <h2>Booking 🧾</h2>
+  <input type="text" placeholder="Your Name" id="name"><br>
+  <input type="date" id="date"><br>
+  <button onclick="confirmBooking()">Confirm Booking</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
