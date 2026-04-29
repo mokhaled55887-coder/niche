@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: #0B3D2E;
+  color: #D4AF37;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background: #145A32;
+  color: #D4AF37;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Sections */
+section {
+  margin: 30px 0;
+}
+
+/* Buttons */
+button {
+  background: #D4AF37;
+  color: #0B3D2E;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #FFD700;
+  transform: scale(1.05);
+}
+
+/* Map */
+.map-container button {
+  margin: 10px;
+  padding: 15px;
+  font-size: 18px;
+}
+
+/* Cards */
+#places {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#places div {
+  background: #145A32;
+  margin: 10px;
+  padding: 15px;
+  width: 220px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+#places div:hover {
+  transform: translateY(-5px);
+}
+
+/* Cart */
+#cart {
+  background: #145A32;
+  padding: 20px;
+  border-radius: 15px;
+  width: 60%;
+  margin: auto;
+}
+
+/* Booking */
+#booking input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 200px;
+}
+
+/* Hidden */
+.hidden {
+  display: none;
+}
